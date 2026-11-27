@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>UAS Ganjil – Pendidikan Pancasila Kelas X</title>
+<style>
+:root{--bg:#f1eeff;--card:#fff;--tx:#1f1b3a;--mu:#6b6890;--pr:#5b3fd9;--pr2:#e11d8f;--ok:#16a34a;--wr:#f59e0b;--no:#d5d9e4;--bad:#dc2626;--bd:#e0daff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#14112b;--card:#1f1b3d;--tx:#efeaff;--mu:#a49fcb;--bd:#352f66;--no:#3a3d57;--pr:#8b72ff}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#14112b;--card:#1f1b3d;--tx:#efeaff;--mu:#a49fcb;--bd:#352f66;--no:#3a3d57;--pr:#8b72ff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;user-select:none;-webkit-user-select:none}
+.hd{background:linear-gradient(120deg,var(--pr),var(--pr2));color:#fff;padding:14px 18px;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.hd h1{font-size:1.05rem;margin:0}.hd small{opacity:.9}
+.wrap{max-width:960px;margin:0 auto;padding:16px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:18px;box-shadow:0 4px 18px rgba(91,63,217,.08)}
+label{display:block;font-size:.85rem;color:var(--mu);margin:12px 0 4px}
+input{width:100%;padding:11px 12px;border-radius:10px;border:1.5px solid var(--bd);background:var(--bg);color:var(--tx);font-size:1rem;user-select:text;-webkit-user-select:text}
+input:focus{outline:2px solid var(--pr);border-color:var(--pr)}
+.btn{border:0;border-radius:10px;padding:11px 18px;font-size:.95rem;font-weight:600;cursor:pointer;color:#fff;background:var(--pr)}
+.btn.w{background:var(--wr);color:#2a1d00}.btn.g{background:var(--ok)}.btn.o{background:transparent;color:var(--pr);border:1.5px solid var(--pr)}
+.btn:disabled{opacity:.4;cursor:not-allowed}
+.big{width:100%;margin-top:18px;padding:13px;font-size:1.05rem;background:linear-gradient(120deg,var(--pr),var(--pr2))}
+.err{color:var(--bad);font-size:.9rem;margin-top:10px;min-height:1.2em}
+ul.rl{color:var(--mu);font-size:.85rem;padding-left:18px;margin:8px 0 0}
+.grid{display:grid;grid-template-columns:1fr 280px;gap:16px}
+@media(max-width:760px){.grid{grid-template-columns:1fr}}
+.tm{background:rgba(255,255,255,.2);padding:6px 14px;border-radius:99px;font-weight:700;font-variant-numeric:tabular-nums}
+.tm.low{background:var(--bad);animation:b 1s infinite}@keyframes b{50%{opacity:.6}}
+.q{font-size:1.08rem;line-height:1.5;margin:6px 0 14px}
+.op{display:flex;gap:10px;width:100%;text-align:left;padding:12px;margin:8px 0;border-radius:12px;border:1.5px solid var(--bd);background:var(--bg);color:var(--tx);font-size:1rem;cursor:pointer}
+.op b{min-width:26px;height:26px;border-radius:50%;background:var(--bd);display:grid;place-items:center;font-size:.8rem}
+.op.s{border-color:var(--pr);background:color-mix(in srgb,var(--pr) 14%,var(--bg))}.op.s b{background:var(--pr);color:#fff}
+.nav{display:flex;gap:8px;justify-content:space-between;margin-top:16px;flex-wrap:wrap}
+.nums{display:grid;grid-template-columns:repeat(5,1fr);gap:7px;margin-top:8px}
+.nm{padding:9px 0;border-radius:9px;border:2px solid transparent;background:var(--no);color:var(--tx);font-weight:700;cursor:pointer}
+.nm.a{background:var(--ok);color:#fff}.nm.d{background:var(--wr);color:#2a1d00}.nm.c{border-color:var(--pr);box-shadow:0 0 0 2px var(--pr)}
+.lg{display:flex;gap:10px;flex-wrap:wrap;font-size:.75rem;color:var(--mu);margin-top:12px}.lg i{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:4px;vertical-align:-1px}
+.ov{position:fixed;inset:0;background:rgba(10,6,30,.9);display:none;place-items:center;z-index:9;padding:20px}
+.ov div{background:var(--card);border-radius:18px;padding:24px;max-width:420px;text-align:center;border-top:6px solid var(--bad)}
+.sc{text-align:center;padding:10px}.sc .n{font-size:4rem;font-weight:800;background:linear-gradient(120deg,var(--pr),var(--pr2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.info{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:8px;margin:10px 0;font-size:.9rem}.info span{color:var(--mu)}
+.rv{border-left:5px solid var(--no);padding:10px 14px;margin:12px 0;border-radius:8px;background:var(--bg);user-select:text}
+.rv.ok{border-color:var(--ok)}.rv.x{border-color:var(--bad)}.rv p{margin:5px 0;font-size:.92rem}
+.hide{display:none}
+</style></head><body oncontextmenu="return false" oncopy="return false">
+<div class="hd"><div><h1>UAS Ganjil – Pendidikan Pancasila</h1><small>Kelas X · Tahun Ajaran 2026/2027</small></div><div id="tm" class="tm hide"></div></div>
+<div class="wrap">
+<section id="s1" class="card" style="max-width:520px;margin:10px auto">
+<h2 style="margin:0">Data Peserta</h2>
+<label>Nama Siswa</label><input id="nm" autocomplete="off">
+<label>Kelas</label><input id="kl" placeholder="contoh: X-3" autocomplete="off">
+<label>Nomor Peserta Didik</label><input id="np" autocomplete="off">
+<label>Asal Sekolah</label><input id="sk" autocomplete="off">
+<label>Token Ujian (dari pengawas)</label><input id="tk" autocomplete="off" style="text-transform:uppercase;letter-spacing:2px">
+<div id="er" class="err"></div>
+<ul class="rl"><li>Waktu 90 menit, 50 soal pilihan ganda, urutan soal diacak.</li><li>Dilarang membuka tab/jendela lain. Peringatan hanya satu kali; pelanggaran kedua mengakhiri ujian otomatis.</li></ul>
+<button class="btn big" onclick="start()">Mulai Ujian</button>
+</section>
+<section id="s2" class="grid hide">
+<div class="card"><div style="display:flex;justify-content:space-between;color:var(--mu);font-size:.9rem"><span id="no"></span><span id="pg"></span></div><div id="q" class="q"></div><div id="ops"></div>
+<div class="nav"><button class="btn o" id="pv" onclick="go(cur-1)">← Sebelumnya</button><button class="btn w" id="rg" onclick="rag()">Ragu-ragu</button><button class="btn" id="nx" onclick="go(cur+1)">Selanjutnya →</button></div>
+<button class="btn g big hide" id="fin" onclick="if(confirm('Yakin mengakhiri ujian? Soal belum dijawab: '+unans()))finish()">Selesai &amp; Kumpulkan</button></div>
+<div class="card"><b>Navigasi Soal</b><div id="nums" class="nums"></div>
+<div class="lg"><span><i style="background:var(--ok)"></i>Dijawab</span><span><i style="background:var(--wr)"></i>Ragu-ragu</span><span><i style="background:var(--no)"></i>Belum</span></div></div>
+</section>
+<section id="s3" class="card hide"></section>
+</div>
+<div id="ov" class="ov"><div><h2 style="color:var(--bad);margin-top:0">⚠ Peringatan Kecurangan</h2><p>Kamu terdeteksi meninggalkan halaman ujian (pindah tab/jendela atau keluar layar penuh).</p><p><b>Ini peringatan satu-satunya.</b> Pelanggaran berikutnya akan mengakhiri ujian otomatis.</p><button class="btn" onclick="back()">Saya Mengerti, Lanjutkan</button></div></div>
+<script>
+const TOKEN="UAS2026",DUR=5400,LIM=1;
+const Q=[
+["Sidang pertama BPUPKI (29 Mei – 1 Juni 1945) membahas agenda utama ...",["rancangan UUD","pembentukan PPKI","dasar negara Indonesia merdeka","pengesahan teks proklamasi","pembagian wilayah provinsi"],2,"Sidang pertama BPUPKI membahas dasar negara; rancangan UUD dibahas pada sidang kedua (10–17 Juli 1945)."],
+["Dalam pidato 1 Juni 1945, Soekarno memeras Pancasila menjadi Trisila dan Ekasila. Ekasila berintikan ...",["ketuhanan","sosio-nasionalisme","sosio-demokrasi","kemanusiaan","gotong royong"],4,"Trisila diperas lagi menjadi Ekasila, yaitu gotong royong."],
+["Pancasila sebagai ideologi negara berfungsi untuk ...",["membatasi hak politik warga","mempersatukan bangsa dan memberi arah tujuan negara","menggantikan peran agama","membedakan kelompok masyarakat","melindungi golongan tertentu"],1,"Ideologi negara menjadi pemersatu sekaligus pedoman arah tujuan bangsa."],
+["Soekarno menyebut Pancasila sebagai philosophische grondslag, artinya Pancasila adalah ...",["dasar filsafat atau fundamen negara","hukum pidana nasional","lambang negara","semboyan negara","peraturan daerah"],0,"Philosophische grondslag berarti dasar filsafat/fundamen negara."],
+["Dimensi realitas Pancasila sebagai ideologi terbuka berarti ...",["nilainya dapat diubah sesuka hati","nilainya terlepas dari masyarakat","nilainya bersumber dari kenyataan hidup yang berkembang di masyarakat","hanya cita-cita","hanya berlaku pada masa lalu"],2,"Dimensi realitas: nilai Pancasila digali dari kenyataan hidup masyarakat Indonesia."],
+["Pancasila sebagai cita-cita bangsa berarti bangsa Indonesia berupaya mewujudkan ...",["negara tanpa aturan","masyarakat adil dan makmur berdasarkan nilai Pancasila","negara yang bergantung pada bangsa lain","kekuasaan terpusat pada satu golongan","kehidupan tanpa perbedaan pendapat"],1,"Cita-cita bangsa adalah masyarakat adil dan makmur berlandaskan Pancasila."],
+["Saling mengucapkan selamat hari raya kepada teman yang berbeda agama merupakan pengamalan sila ...",["kedua","pertama","ketiga","keempat","kelima"],1,"Toleransi antarumat beragama adalah pengamalan sila Ketuhanan Yang Maha Esa."],
+["Tidak memaksakan kehendak dalam rapat OSIS dan mendengarkan pendapat anggota lain mencerminkan sila ...",["pertama","kedua","keempat","kelima","ketiga"],2,"Musyawarah dan menghargai pendapat adalah nilai sila keempat."],
+["Menjalankan hak dan kewajiban secara seimbang mencerminkan sila ...",["keempat","kelima","ketiga","kedua","pertama"],1,"Keseimbangan hak dan kewajiban adalah wujud keadilan sosial (sila kelima)."],
+["Mengembangkan sikap tenggang rasa dan tidak semena-mena terhadap orang lain merupakan pengamalan sila ...",["kedua","pertama","ketiga","keempat","kelima"],0,"Tenggang rasa termasuk nilai kemanusiaan yang adil dan beradab (sila kedua)."],
+["Lagu Indonesia Raya pertama kali dikumandangkan pada Kongres Pemuda II oleh ...",["Ki Hajar Dewantara","Ismail Marzuki","C. Simanjuntak","H. Mutahar","W.R. Supratman"],4,"W.R. Supratman menciptakan dan memperdengarkan Indonesia Raya pada 28 Oktober 1928."],
+["Alat musik bambu asal Jawa Barat yang ditetapkan UNESCO sebagai Warisan Budaya Takbenda pada 2010 adalah ...",["angklung","sasando","kolintang","gamelan","tifa"],0,"Angklung ditetapkan UNESCO pada 2010."],
+["Sikap rela berkorban demi kepentingan bangsa dan negara disebut ...",["chauvinisme","individualisme","apatisme","egoisme","patriotisme"],4,"Patriotisme adalah semangat cinta tanah air dan rela berkorban untuk bangsa."],
+["Bahasa Indonesia ditetapkan sebagai bahasa negara dalam UUD 1945 Pasal ...",["27","31","36","29","33"],2,"Pasal 36 UUD 1945: bahasa negara ialah Bahasa Indonesia."],
+["Tanggal 2 Oktober ditetapkan sebagai ...",["Hari Sumpah Pemuda","Hari Kebangkitan Nasional","Hari Batik Nasional","Hari Pendidikan Nasional","Hari Pahlawan"],2,"UNESCO mengakui batik pada 2 Oktober 2009, sehingga ditetapkan sebagai Hari Batik Nasional."],
+["Dampak positif meningkatnya penggunaan produk dalam negeri adalah ...",["berkurangnya ketergantungan pada barang impor","meningkatnya pengangguran","melemahnya industri nasional","menurunnya pendapatan pelaku usaha lokal","berkurangnya lapangan kerja"],0,"Konsumsi produk lokal menggerakkan industri, membuka lapangan kerja, dan menekan impor."],
+["Program pemerintah untuk membantu permodalan pelaku UMKM adalah ...",["Pajak Bumi dan Bangunan","Kredit Usaha Rakyat (KUR)","Bantuan Operasional Sekolah","Program Keluarga Harapan","Asuransi Kesehatan"],1,"KUR adalah pembiayaan bersubsidi bagi pelaku usaha mikro, kecil, dan menengah."],
+["Bukan keputusan sidang PPKI 18 Agustus 1945 adalah ...",["mengesahkan UUD 1945","memilih Soekarno dan Hatta sebagai Presiden dan Wakil Presiden","membentuk KNIP sebagai pembantu presiden","mengesahkan Pancasila dalam Pembukaan UUD 1945","membagi wilayah Indonesia menjadi delapan provinsi"],4,"Pembagian delapan provinsi diputuskan pada sidang PPKI 19 Agustus 1945."],
+["Panitia Perancang UUD yang dibentuk pada sidang kedua BPUPKI diketuai oleh ...",["Ir. Soekarno","Drs. Mohammad Hatta","Mr. Achmad Soebardjo","dr. Radjiman Wedyodiningrat","H. Agus Salim"],0,"Panitia Perancang UUD diketuai Ir. Soekarno."],
+["Sistematika UUD 1945 sebelum amandemen terdiri atas ...",["Mukadimah, Pasal, Lampiran","Pembukaan, Batang Tubuh, Penjelasan","Pendahuluan, Isi, Penutup","Preambul, Bab, Pasal","Pembukaan, Pasal, Catatan"],1,"UUD 1945 asli: Pembukaan, Batang Tubuh, dan Penjelasan."],
+["UUD 1945 diubah oleh MPR sebanyak empat kali pada kurun waktu ...",["1945 – 1949","1959 – 1962","1999 – 2002","2004 – 2007","2010 – 2013"],2,"Amandemen I–IV dilakukan pada 1999, 2000, 2001, dan 2002."],
+["Hak setiap warga negara mendapat pendidikan dan kewajiban mengikuti pendidikan dasar tercantum dalam Pasal ...",["27","31","29","33","34"],1,"Pasal 31 UUD 1945 mengatur hak dan kewajiban di bidang pendidikan."],
+["Hak dan kewajiban ikut serta dalam usaha pertahanan dan keamanan negara diatur dalam Pasal ...",["27 ayat (1)","28 ayat (1)","31 ayat (1)","33 ayat (1)","30 ayat (1)"],4,"Pasal 30 ayat (1) UUD 1945 mengatur bela negara."],
+["Hak atas pekerjaan dan penghidupan yang layak bagi kemanusiaan tercantum dalam Pasal ...",["27 ayat (1)","28 ayat (2)","27 ayat (2)","30 ayat (1)","31 ayat (1)"],2,"Pasal 27 ayat (2) UUD 1945."],
+["Kewajiban setiap orang menghormati hak asasi manusia orang lain diatur dalam Pasal ...",["27 ayat (3)","28A","28D ayat (1)","28J ayat (1)","29 ayat (2)"],3,"Pasal 28J ayat (1) UUD 1945."],
+["Hari Lahir Pancasila diperingati setiap tanggal ...",["29 Mei","1 Juni","22 Juni","17 Agustus","18 Agustus"],1,"Pidato Soekarno tentang Pancasila disampaikan pada 1 Juni 1945."],
+["Tokoh yang pada pagi 18 Agustus 1945 mendekati tokoh Islam agar sila pertama Piagam Jakarta diubah adalah ...",["Ir. Soekarno","Mr. Muhammad Yamin","Prof. Dr. Soepomo","Drs. Mohammad Hatta","Mr. A.A. Maramis"],3,"Mohammad Hatta melobi tokoh Islam demi menjaga persatuan bangsa."],
+["Nama BPUPKI dalam bahasa Jepang adalah ...",["Dokuritsu Junbi Coosakai","Dokuritsu Junbi Iinkai","Jawa Hokokai","Chuo Sangi-in","Putera"],0,"Dokuritsu Junbi Coosakai = BPUPKI; Dokuritsu Junbi Iinkai = PPKI."],
+["Nilai dasar Pancasila bersifat ...",["berubah mengikuti pemerintah","hanya berlaku di daerah tertentu","sementara dan situasional","tetap, abstrak, dan tidak berubah","hanya berlaku di sekolah"],3,"Nilai dasar bersifat tetap; yang fleksibel adalah nilai instrumentalnya."],
+["Kedudukan Pancasila sebagai sumber segala sumber hukum negara ditegaskan antara lain dalam UU tentang ...",["pemilihan umum","pemerintahan daerah","perlindungan anak","sistem pendidikan nasional","pembentukan peraturan perundang-undangan"],4,"UU Pembentukan Peraturan Perundang-undangan menegaskan hal tersebut."],
+["Gotong royong, musyawarah, dan toleransi sebagai ciri khas masyarakat Indonesia menunjukkan Pancasila sebagai ...",["kepribadian bangsa","perjanjian internasional","dasar hukum pidana","ideologi tertutup","alat politik penguasa"],0,"Ciri khas yang membedakan bangsa Indonesia adalah kepribadian bangsa."],
+["Contoh penerapan Pancasila sebagai dasar negara dalam pemerintahan adalah ...",["membuat aturan yang menguntungkan satu golongan","menghapus kebebasan beragama","mengabaikan musyawarah","membentuk undang-undang yang tidak bertentangan dengan Pancasila","membatasi hak warga tanpa dasar hukum"],3,"Semua peraturan tidak boleh bertentangan dengan Pancasila."],
+["Salah satu ciri ideologi tertutup adalah ...",["digali dari budaya bangsa sendiri","berkembang mengikuti zaman","menghargai perbedaan pendapat","dirumuskan secara demokratis","dogmatis, tidak boleh diubah, dan dipaksakan kepada rakyat"],4,"Ideologi tertutup bersifat dogmatis dan dipaksakan."],
+["Salah satu tantangan terhadap kedudukan Pancasila di era globalisasi adalah ...",["meningkatnya rasa persatuan","tumbuhnya gotong royong","berkembangnya radikalisme dan individualisme","menguatnya toleransi","bertambahnya kegiatan budaya"],2,"Radikalisme dan individualisme mengikis nilai Pancasila."],
+["Menggunakan bahasa Indonesia yang baik dan benar dalam forum resmi mencerminkan sila ...",["pertama","kedua","keempat","kelima","ketiga"],4,"Bahasa Indonesia adalah bahasa persatuan, nilai sila ketiga."],
+["Memperlakukan semua orang setara tanpa membedakan suku, agama, dan ras merupakan pengamalan sila ...",["kedua","pertama","ketiga","keempat","kelima"],0,"Persamaan derajat adalah nilai kemanusiaan (sila kedua)."],
+["Menghargai pendapat teman dalam diskusi kelas merupakan pengamalan sila ...",["pertama","kedua","ketiga","keempat","kelima"],3,"Menghargai pendapat adalah nilai kerakyatan/musyawarah (sila keempat)."],
+["Hidup sederhana dan tidak bergaya hidup mewah berlebihan mencerminkan sila ...",["pertama","kedua","ketiga","keempat","kelima"],4,"Hidup sederhana termasuk nilai keadilan sosial (sila kelima)."],
+["Perilaku yang mencerminkan sila pertama adalah ...",["bergotong royong membersihkan kelas","memilih ketua kelas secara musyawarah","beribadah sesuai keyakinan dan menghormati penganut agama lain","membagi tugas piket secara adil","menolong korban bencana alam"],2,"Beribadah dan toleransi beragama adalah nilai sila pertama."],
+["Menganggap suku sendiri paling unggul dan merendahkan suku lain bertentangan dengan sila ...",["pertama","kedua","keempat","ketiga","kelima"],3,"Sikap tersebut merusak persatuan Indonesia (sila ketiga)."],
+["Bendera pusaka Merah Putih saat Proklamasi dijahit oleh ...",["Cut Nyak Dien","Fatmawati","R.A. Kartini","Dewi Sartika","Martha Christina Tiahahu"],1,"Fatmawati, istri Presiden Soekarno, menjahit bendera pusaka."],
+["Candi Borobudur dibangun pada masa dinasti ...",["Sanjaya","Isyana","Warmadewa","Syailendra","Singasari"],3,"Borobudur dibangun Dinasti Syailendra sekitar abad ke-8–9 M."],
+["Tas rajut tradisional Papua yang ditetapkan UNESCO pada 2012 adalah ...",["ulos","tenun ikat","noken","songket","kain gringsing"],2,"Noken Papua diakui UNESCO pada 2012."],
+["Organisasi pergerakan nasional pertama (1908) adalah ...",["Sarekat Islam","Budi Utomo","Indische Partij","Partai Nasional Indonesia","Muhammadiyah"],1,"Budi Utomo berdiri 20 Mei 1908."],
+["Pengaruh negatif globalisasi terhadap rasa kebangsaan remaja adalah ...",["gaya hidup konsumtif dan meniru budaya asing tanpa seleksi","meningkatnya minat sejarah bangsa","tumbuhnya kebanggaan budaya daerah","bertambahnya gotong royong","meningkatnya penggunaan bahasa Indonesia"],0,"Budaya asing perlu disaring agar identitas bangsa terjaga."],
+["Semboyan Bhinneka Tunggal Ika bermakna ...",["bersatu menguasai bangsa lain","semua budaya harus disamakan","perbedaan tidak boleh ada","berbeda-beda tetapi tetap satu","hanya satu suku yang berhak memimpin"],3,"Bhinneka Tunggal Ika: berbeda-beda tetapi tetap satu jua."],
+["Salah satu komoditas ekspor unggulan nonmigas Indonesia adalah ...",["batu bara mentah saja","beras impor","gandum","kedelai impor","minyak kelapa sawit"],4,"Minyak kelapa sawit termasuk ekspor nonmigas utama Indonesia."],
+["Agar produk dalam negeri mampu bersaing, pelaku usaha perlu ...",["menurunkan kualitas agar murah","meniru produk luar sepenuhnya","mengurangi promosi","meningkatkan inovasi, desain, dan kemasan","menghindari teknologi"],3,"Inovasi dan kualitas meningkatkan daya saing."],
+["Sidang kedua BPUPKI berlangsung pada tanggal ...",["29 Mei – 1 Juni 1945","22 Juni 1945","18 Agustus 1945","10 – 17 Juli 1945","17 Agustus 1945"],3,"Sidang kedua BPUPKI: 10–17 Juli 1945, membahas rancangan UUD."],
+["\"Segala warga negara bersamaan kedudukannya di dalam hukum dan pemerintahan...\" terdapat pada Pasal ...",["27 ayat (1)","27 ayat (2)","28 ayat (1)","30 ayat (2)","31 ayat (2)"],0,"Pasal 27 ayat (1) UUD 1945."]
+];
+const $=i=>document.getElementById(i),L="ABCDE";
+let P={},ord=[],cur=0,ans={},dbt={},left=DUR,viol=0,done=false,run=false,tm,lastV=0;
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function start(){
+ P={n:$("nm").value.trim(),k:$("kl").value.trim(),p:$("np").value.trim(),s:$("sk").value.trim()};
+ if(!P.n||!P.k||!P.p||!P.s){$("er").textContent="Lengkapi semua data peserta.";return}
+ if($("tk").value.trim().toUpperCase()!==TOKEN){$("er").textContent="Token salah. Minta token kepada pengawas.";return}
+ ord=Q.map((_,i)=>i);for(let i=ord.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[ord[i],ord[j]]=[ord[j],ord[i]]}
+ try{document.documentElement.requestFullscreen&&document.documentElement.requestFullscreen()}catch(e){}
+ $("s1").classList.add("hide");$("s2").classList.remove("hide");$("tm").classList.remove("hide");
+ run=true;draw();tick();tm=setInterval(tick,1000);
+ setTimeout(()=>{document.addEventListener("fullscreenchange",()=>{if(!document.fullscreenElement)cheat()})},800);
+}
+function tick(){if(done)return;if(left<=0){finish();return}
+ const m=String(Math.floor(left/60)).padStart(2,"0"),s=String(left%60).padStart(2,"0");
+ $("tm").textContent="⏱ "+m+":"+s;$("tm").classList.toggle("low",left<300);left--}
+function draw(){
+ const k=ord[cur],q=Q[k];
+ $("no").textContent="Soal "+(cur+1);$("pg").textContent=Object.keys(ans).length+"/"+Q.length+" terjawab";
+ $("q").textContent=q[0];
+ $("ops").innerHTML=q[1].map((o,i)=>'<button class="op'+(ans[k]===i?" s":"")+'" onclick="pick('+i+')"><b>'+L[i]+'</b><span>'+esc(o)+'</span></button>').join("");
+ $("pv").disabled=cur==0;$("nx").classList.toggle("hide",cur==Q.length-1);$("fin").classList.toggle("hide",cur!=Q.length-1);
+ $("rg").textContent=dbt[k]?"✓ Ragu-ragu (batalkan)":"Ragu-ragu";
+ $("nums").innerHTML=ord.map((x,i)=>'<button class="nm'+(dbt[x]?" d":ans[x]!==undefined?" a":"")+(i==cur?" c":"")+'" onclick="go('+i+')">'+(i+1)+'</button>').join("");
+}
+function pick(i){ans[ord[cur]]=i;draw()}
+function rag(){const k=ord[cur];dbt[k]=!dbt[k];if(!dbt[k])delete dbt[k];draw()}
+function go(i){if(i<0||i>=Q.length)return;cur=i;draw()}
+function unans(){return Q.length-Object.keys(ans).length}
+function cheat(){
+ if(done||!run)return;const n=Date.now();if(n-lastV<1500)return;lastV=n;viol++;
+ if(viol>LIM)finish("Ujian diakhiri otomatis karena pelanggaran kedua (meninggalkan halaman ujian).");
+ else $("ov").style.display="grid";
+}
+function back(){$("ov").style.display="none";try{document.documentElement.requestFullscreen&&document.documentElement.requestFullscreen()}catch(e){}}
+document.addEventListener("visibilitychange",()=>{if(document.hidden)cheat()});
+window.addEventListener("blur",cheat);
+document.addEventListener("keydown",e=>{if(run&&!done&&(e.key=="F12"||(e.ctrlKey&&["c","v","u","s","p"].includes(e.key.toLowerCase()))))e.preventDefault()});
+function finish(why){
+ if(done)return;done=true;run=false;clearInterval(tm);$("ov").style.display="none";
+ try{document.fullscreenElement&&document.exitFullscreen()}catch(e){}
+ let ok=0;Q.forEach((q,i)=>{if(ans[i]===q[2])ok++});
+ const sc=Math.round(ok/Q.length*100);
+ let h='<div class="sc"><div>Nilai Akhir</div><div class="n">'+sc+'</div><div>Benar '+ok+' dari '+Q.length+' soal</div>'+(why?'<p style="color:var(--bad)">'+esc(why)+'</p>':"")+'</div>';
+ h+='<div class="info"><div><span>Nama</span><br><b>'+esc(P.n)+'</b></div><div><span>Kelas</span><br><b>'+esc(P.k)+'</b></div><div><span>No. Peserta</span><br><b>'+esc(P.p)+'</b></div><div><span>Asal Sekolah</span><br><b>'+esc(P.s)+'</b></div></div><h3>Jawaban &amp; Pembahasan</h3>';
+ ord.forEach((k,i)=>{const q=Q[k],a=ans[k],r=a===q[2];
+  h+='<div class="rv '+(r?"ok":"x")+'"><b>'+(i+1)+'. '+esc(q[0])+'</b><p>Jawabanmu: <b>'+(a===undefined?"tidak dijawab":L[a]+". "+esc(q[1][a]))+'</b> '+(r?"✔":"✘")+'</p><p>Kunci: <b>'+L[q[2]]+". "+esc(q[1][q[2]])+'</b></p><p>Pembahasan: '+esc(q[3])+'</p></div>'});
+ h+='<button class="btn big" onclick="window.print()">Cetak / Simpan PDF</button>';
+ $("s2").classList.add("hide");$("tm").classList.add("hide");$("s3").innerHTML=h;$("s3").classList.remove("hide");window.scrollTo(0,0);
+}
+</script></body></html>
